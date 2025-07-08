@@ -1,0 +1,20 @@
+h1,h2 {
+    text-align: center;
+}
+
+body {
+    background-image: url("index_BC.jpeg"); /* 图片文件名，确保存在 */
+    background-size: cover;          /* 拉伸背景图以覆盖整个页面 */
+    background-position: center;     /* 居中显示 */
+    background-repeat: no-repeat;    /* 不重复平铺 */
+    color: white;                    /* 设置文字颜色 */
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+button {
+  display: block;
+  margin: 20px auto;
+}
+
