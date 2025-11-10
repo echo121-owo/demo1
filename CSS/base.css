@@ -5,11 +5,13 @@ h1 {
     font-family: "Arial";
     color: rgb(190, 189, 189);
 }
+
 h2 {
     text-align: center;
     font-family: "Arial";
     color: gray;
 }
+
 h4 {
     text-align: center;
     color: gray;
@@ -22,12 +24,15 @@ h4 {
 /* background image */
 body {
     background-color: rgb(1, 0, 6);
-    background-image: url("/BKGD/BKGD_7.jpg");
+    background-image: url("../BKGD/BKGD_7.jpg");
 
     /* position */
-    background-size: auto;      /*大小 */
-    background-position: top;   /* 居中 */
-    background-repeat: no-repeat; /*只出现一次，不repeat*/
+    background-size: auto;
+    /*大小 */
+    background-position: top;
+    /* 居中 */
+    background-repeat: no-repeat;
+    /*只出现一次，不repeat*/
 
 }
 
