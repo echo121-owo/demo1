@@ -1,9 +1,7 @@
 // ------------------------------------打开计算器---------------------------------
-const button = document.getElementById("go_calculator_page")
+const open_calculator_button = document.getElementById("go_calculator_page");
 
-
-button.addEventListener("click", () => {
-    window.console("open calculator")
+open_calculator_button.addEventListener("click", () => {
     window.location = "Sub_Page/calculator/calculator.html"
 })
 
