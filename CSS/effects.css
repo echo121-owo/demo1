@@ -1,0 +1,122 @@
+/* 动效、过渡、特效 */
+
+/*-----------------------------------------------------------------------------------------------------------------*/
+/* rainbow-text */
+.rainbow-text {
+    color: red;
+    animation: colorChange 3s infinite;
+    /* 名为 colorChange 的动画，3秒循环 */
+    text-align: center;
+}
+
+@keyframes colorChange {
+    0% {
+        color: red;
+    }
+
+    25% {
+        color: orange;
+    }
+
+    50% {
+        color: green;
+    }
+
+    75% {
+        color: blue;
+    }
+
+    100% {
+        color: purple;
+    }
+}
+
+/*-----------------------------------------------------------------------------------------------------------------*/
+/* blur glass text card */
+.card {
+    /* text */
+    text-align: center;
+    color: whitesmoke;
+
+    /* box */
+    /* width */
+    width: 60%;
+    max-width: 1000px;
+    min-width: 400px;
+    /* center （上下0,左右 auto）*/
+    margin: 0 auto;
+    /* 圆角落 */
+    border-radius: 15px;
+    /* 模糊化 */
+    backdrop-filter: blur(2px);
+
+    background: rgba(27, 25, 25, 0.4);
+    /* rgba */
+    /* shadow */
+    box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.8)
+        /* x,y,blur-radius,color*/
+}
+
+/*-----------------------------------------------------------------------------------------------------------------*/
+.button {
+
+    /* text */
+    text-align: center;
+    color: whitesmoke;
+    font-size: 120%;
+    letter-spacing: 1px;
+    /* 控制内部文字与按钮边框之间的距离,可控制大小 */
+    padding: 1%;
+
+    /* box */
+    display: inline-block;
+    border: none;
+    outline: none;
+    width: 45vw;
+    /* center （上下0,左右 auto）*/
+    margin: 0 auto;
+
+    /* 圆角落 */
+    border-radius: 15px;
+    /* 模糊化 */
+    backdrop-filter: none;
+
+    background: none;
+
+    /* animation */
+    /* 动画长度 */
+    /* transition: all 0.2s ease; */
+
+}
+
+/* 鼠标悬停 */
+.button:hover {
+
+    /* text */
+    text-align: center;
+    color: whitesmoke;
+    font-size: 120%;
+    letter-spacing: 1px;
+    /* 控制内部文字与按钮边框之间的距离,可控制大小 */
+    /* padding: 5% auto; */
+
+    /* box */
+    display: inline-block;
+    width: 45vw;
+    /* center （上下0,左右 auto）*/
+    margin: 0 auto;
+
+    /* 圆角落 */
+    border-radius: 15px;
+    /* 模糊化 */
+    backdrop-filter: blur(10px);
+    /* 模糊化 */
+    background: rgba(73, 72, 72, 0.5);
+
+    /* animation */
+    /* 动画长度 */
+    /* transition: all 0.2s ease; */
+    transform: scale(1.07);
+    /* box-shadow: 2px 2px 2px rgba(197, 196, 196, 0.1); */
+
+}
