@@ -3,7 +3,7 @@ const button = document.getElementById("go_calculator_page")
 
 
 button.addEventListener("click", () => {
-    alert("open calculator")
+    window.console("open calculator")
     window.location = "Sub_Page/calculator/calculator.html"
 })
 
