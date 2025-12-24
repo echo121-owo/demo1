@@ -15,6 +15,41 @@ document.getElementById("submit_r_of_circle").onclick = function () {
 }
 
 
+
+
+
+
+// a simple number counter
+let ECHO_counter = 0
+
+//buttons
+const decr_buton = document.getElementById("decrease_counter")
+const rest_buton = document.getElementById("reset_to_zero_counter")
+const inc_buton = document.getElementById("increase_counter")
+
+// increase
+decr_buton.onclick = function () {
+    ECHO_counter -= 1
+    document.getElementById("the_number_to_count").textContent = ECHO_counter
+}
+
+// reset
+rest_buton.onclick = function () {
+    ECHO_counter = 0
+    document.getElementById("the_number_to_count").textContent = ECHO_counter
+}
+
+//increase
+inc_buton.onclick = function () {
+    ECHO_counter += 1
+    document.getElementById("the_number_to_count").textContent = ECHO_counter
+}
+
+
+
+
+
+
 // a real good calculator
 
 

@@ -89,7 +89,7 @@
 
 }
 
-/* 鼠标悬停 */
+/* 鼠标悬停 hover代表悬停 只需要写修改的东西*/
 .button:hover {
 
     /* text */
@@ -105,9 +105,6 @@
     width: 45vw;
     /* center （上下0,左右 auto）*/
     margin: 0 auto;
-
-    /* 圆角落 */
-    border-radius: 15px;
     /* 模糊化 */
     backdrop-filter: blur(10px);
     /* 模糊化 */
