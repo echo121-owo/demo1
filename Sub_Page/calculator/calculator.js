@@ -1,6 +1,13 @@
 document.getElementById("calculator_h1_1").textContent = "calculator";
 
 
+
+
+
+
+
+
+
 // find area of a circle
 document.getElementById("calculator_p_1").textContent = "ECHO: I can help you find the area of a circle"
 // get user input of r
@@ -22,29 +29,38 @@ document.getElementById("submit_r_of_circle").onclick = function () {
 // a simple number counter
 let ECHO_counter = 0
 
+// number is self
+const counter_it_self = document.getElementById("the_number_to_count")
+
 //buttons
 const decr_buton = document.getElementById("decrease_counter")
 const rest_buton = document.getElementById("reset_to_zero_counter")
 const inc_buton = document.getElementById("increase_counter")
+const rannum_buton = document.getElementById("random_number_gen")
 
 // increase
 decr_buton.onclick = function () {
     ECHO_counter -= 1
-    document.getElementById("the_number_to_count").textContent = ECHO_counter
+    counter_it_self.textContent = ECHO_counter
 }
 
 // reset
 rest_buton.onclick = function () {
     ECHO_counter = 0
-    document.getElementById("the_number_to_count").textContent = ECHO_counter
+    counter_it_self.textContent = ECHO_counter
 }
 
 //increase
 inc_buton.onclick = function () {
     ECHO_counter += 1
-    document.getElementById("the_number_to_count").textContent = ECHO_counter
+    counter_it_self.textContent = ECHO_counter
 }
 
+// random
+rannum_buton.onclick = function () {
+    ECHO_counter = Math.round(Math.random() * (100))
+    counter_it_self.textContent = ECHO_counter
+}
 
 
 

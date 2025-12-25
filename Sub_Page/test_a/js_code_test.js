@@ -13,11 +13,22 @@ document.getElementById("test_submit").onclick = function () {
 
 let x
 
-x = window.prompt("number:")
+// x = window.prompt("number:")
 x = Number(x)
 
 x = -10000000
 
 x += 11
 
-console.log(x, typeof (x)) 
+console.log(x, typeof (x))
+
+
+// math
+
+x = Math.PI
+
+
+console.log(Math.tan(90))
+console.log(Math.max(1, 2, 4, 5555))
+
+let random_num
