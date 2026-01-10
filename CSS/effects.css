@@ -72,7 +72,7 @@
     display: inline-block;
     border: none;
     outline: none;
-    width: 45vw;
+    width: 80%;
     /* center （上下0,左右 auto）*/
     margin: 0 auto;
 
@@ -95,16 +95,16 @@
     /* text */
     text-align: center;
     color: whitesmoke;
-    font-size: 120%;
+    font-size: 140%;
     letter-spacing: 1px;
     /* 控制内部文字与按钮边框之间的距离,可控制大小 */
     /* padding: 5% auto; */
 
     /* box */
-    display: inline-block;
-    width: 45vw;
+    /* display: inline-block; */
+    width: 80%;
     /* center （上下0,左右 auto）*/
-    margin: 0 auto;
+    /* margin: 0 auto; */
     /* 模糊化 */
     backdrop-filter: blur(10px);
     /* 模糊化 */

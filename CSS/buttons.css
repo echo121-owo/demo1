@@ -1,7 +1,7 @@
 .button {
 
     /* text */
-    text-align: center;
+    /* text-align: center; */
     color: whitesmoke;
     font-size: 120%;
     letter-spacing: 1px;
@@ -9,12 +9,12 @@
     padding: 1%;
 
     /* box */
-    display: inline-block;
+    /* display: inline-block; */
     border: none;
     outline: none;
     width: 45vw;
     /* center （上下0,左右 auto）*/
-    margin: 0 auto;
+    /* margin: 0 auto; */
 
     /* 圆角落 */
     border-radius: 15px;
